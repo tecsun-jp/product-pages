@@ -17,3 +17,7 @@
 ## 商品を追加する場合
 
 新しい商品ごとに英数字のフォルダーを追加し、その中に `index.html`、`style.css`、`assets/` を置きます。ルートの `index.html` に商品カードを追加すると、商品一覧にも表示できます。
+
+## アクセス解析
+
+商品一覧と各商品ページには Cloudflare Web Analytics を導入済みです。新しい商品ページを追加するときも、既存の `index.html` の末尾にある Cloudflare Web Analytics のコードを残してください。
