@@ -7,11 +7,27 @@
 }
 
 body {
-  background:
-    radial-gradient(circle at 8% 3%, rgba(176, 74, 68, .16) 0 7rem, transparent 7.1rem),
-    radial-gradient(circle at 96% 18%, rgba(214, 168, 84, .22) 0 9rem, transparent 9.1rem),
-    var(--canvas);
+  background: var(--canvas);
 }
+
+body::before,
+body::after {
+  content: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.pair { margin-top: 0; }
 
 .date-card.pitted {
   --slot: #f6e4df;
