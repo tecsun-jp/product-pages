@@ -1,0 +1,14 @@
+:root {
+  --canvas: #f7f4ec;
+  --accent: #a56a2b;
+  --accent-soft: #f3e1b6;
+  --slot: #f4ead6;
+  --slot-ink: #8a6233;
+}
+
+body {
+  background:
+    radial-gradient(circle at 7% 4%, rgba(196, 146, 64, .26) 0 7rem, transparent 7.1rem),
+    radial-gradient(circle at 98% 26%, rgba(232, 214, 184, .85) 0 10rem, transparent 10.1rem),
+    var(--canvas);
+}

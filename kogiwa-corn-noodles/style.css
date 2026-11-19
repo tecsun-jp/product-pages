@@ -61,11 +61,25 @@ body::after {
 .page-shell {
   width: min(100%, 680px);
   margin-inline: auto;
-  padding: max(48px, env(safe-area-inset-top)) 26px max(34px, env(safe-area-inset-bottom));
+  padding: max(22px, env(safe-area-inset-top)) 26px max(34px, env(safe-area-inset-bottom));
 }
 
 .hero {
   text-align: center;
+}
+
+.brand-logo {
+  display: block;
+  width: min(220px, 58vw);
+  margin: 0 auto 12px;
+  line-height: 0;
+  background: transparent;
+}
+
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .brand-kicker {
@@ -417,7 +431,7 @@ footer {
 }
 
 @media (min-width: 620px) {
-  .page-shell { padding-top: 64px; }
+  .page-shell { padding-top: 36px; }
   .product-visual img { height: auto; aspect-ratio: 5 / 4; }
   .introduction { padding-inline: 30px; text-align: center; }
   .store-card { grid-template-columns: 62px minmax(0, 1fr) 44px; min-height: 86px; padding-inline: 14px 18px; }

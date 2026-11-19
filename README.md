@@ -6,6 +6,11 @@
 
 - 商品一覧：`https://tecsun-jp.github.io/product-pages/`
 - 興宜和KOGIWA とうもろこし麺：`https://tecsun-jp.github.io/product-pages/kogiwa-corn-noodles/`
+- 種抜きなつめ（去核红枣）：`https://tecsun-jp.github.io/product-pages/pitted-red-dates/`
+- 駿棗（骏枣）：`https://tecsun-jp.github.io/product-pages/junzao-dates/`
+- なつめ二種（带货用の共有リンク）：`https://tecsun-jp.github.io/product-pages/natsume/`
+
+種抜きなつめと特級なつめの商品写真は、それぞれの `assets/product.jpg` を表示しています。店舗ロゴは `assets/tokushou-logo.png` を各ページの先頭に表示しています。
 
 ## GitHub Pagesの設定
 

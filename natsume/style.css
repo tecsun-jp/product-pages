@@ -1,0 +1,65 @@
+:root {
+  --canvas: #f7f4ef;
+  --accent: #9c3d3a;
+  --accent-soft: #f4d7c8;
+  --slot: #f3e7df;
+  --slot-ink: #7d5344;
+}
+
+body {
+  background:
+    radial-gradient(circle at 8% 3%, rgba(176, 74, 68, .16) 0 7rem, transparent 7.1rem),
+    radial-gradient(circle at 96% 18%, rgba(214, 168, 84, .22) 0 9rem, transparent 9.1rem),
+    var(--canvas);
+}
+
+.date-card.pitted {
+  --slot: #f6e4df;
+  --slot-ink: #8c4e49;
+}
+
+.date-card.junzao {
+  --slot: #f4ead6;
+  --slot-ink: #8a6233;
+}
+
+.pair .product-visual img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+.date-card .buy-links {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.date-card .store-card {
+  min-height: 64px;
+  grid-template-columns: 44px minmax(0, 1fr) 32px;
+  padding: 8px 10px 8px 8px;
+}
+
+.date-card .logo-frame {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.date-card .logo-frame img {
+  width: 32px;
+  height: 32px;
+}
+
+.date-card .link-copy { padding: 0 8px; }
+
+.date-card .link-copy strong { font-size: 13px; }
+
+.date-card .arrow {
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+}
